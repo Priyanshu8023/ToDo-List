@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    background-color:rgb(106, 18, 109);
+    color: white;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 85px;
+
+}
+.sidebar{
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+}
+.sidecont{
+    padding: 5px 8px;
+    background-color:rgb(106, 18, 109);
+    border: none;
+    color: white;
+    font-size: 1.05em;
+    cursor: pointer;
+}
+.sidecont :hover{
+    transform: scale(1.5);
+}
+ 
